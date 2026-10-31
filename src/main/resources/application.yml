@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: a2a-aggregator
+  ai:
+    mcp:
+      client:
+        enabled: false # Enable and configure named MCP connections in deployment config.
+
+aggregator:
+  request-timeout: 10s
+  recipients: []
+
+logging:
+  level:
+    com.example.a2aaggregator: INFO
